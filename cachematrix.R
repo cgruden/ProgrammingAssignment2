@@ -10,14 +10,14 @@
 ## that can cache its inverse.
 
 makeCacheMatrix <- function(m = matrix()) {
-  m_i <- NULL
+  m_inv <- NULL
   set <- function(y) {
     m <<- y
-    m_i <<- NULL   # Clear the inverse when the matrix changes.
+    m_inv <<- NULL   # Clear the inverse when the matrix changes.
   }
   get <- function() m
-  setinverse <- function(y) m_1 <<- y
-  getinverse <- function() m_1
+  setinverse <- function(y) m_inv<<- y
+  getinverse <- function() m_inv
   list(set = set, 
        get = get,
        setinverse = setinverse,
