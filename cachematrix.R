@@ -1,5 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Programming Assignment 2: Lexical Scoping
+##
+## In this example we introduce the <<- operator which can be used to assign 
+## a value to an object in an environment that is different from the current 
+## environment. Below are two functions that are used to create a special object 
+## that stores a numeric matrix and cache's its inverse.
+
 
 ## Write a short comment describing this function
 
